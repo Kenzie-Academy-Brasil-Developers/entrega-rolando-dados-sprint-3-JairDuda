@@ -148,20 +148,6 @@ const buttonGiraMil = document.createElement("button")
         
         }  
 
-        
-
-        
-            // console.log("Deu o numero" + (i+2) + " " + pegarResultado[i] + "vezes")
-            // const main = document.createElement("main") 
-            //         main.classList.add("main")
-            //         document.body.appendChild(main)
-                    // grafico.style.width = pegarResultado[i]  + "px"
-                    // grafico.style.height = 20 + "px"
-                    // grafico.innerText = (" deu o numero" +(i+2) +" "+ pegarResultado[i])
-    
-                    
-        
-        // }
 
         for(let i = 0; i < 11; i++){
             
@@ -177,66 +163,12 @@ const buttonGiraMil = document.createElement("button")
      })
 
      
-        // console.log("Deu o numero" + (i+2) + " " + pegarResultado[i] + "vezes")
+        
         const main = document.createElement("main") 
                 main.classList.add("main")
                 document.body.appendChild(main)
-                // grafico.style.width = pegarResultado[i]  + "px"
-                // grafico.style.height = 20 + "px"
-                // grafico.innerText = (" deu o numero" +(i+2) +" "+ pegarResultado[i])
-
+                
                 
     
     
-        // const grafico = document.createElement("div") 
-        // grafico.classList.add("grafico")
-        // main.appendChild(grafico)
-        // for(let i = 0; i < 12; i++){
-        // console.log("Deu o numero" + (i+2) + " " + pegarResultado[i] + "vezes")
-        //         grafico.style.width = pegarResultado[i]  + "px"
-        //         grafico.style.height = 20 + "px"
-        //         grafico.innerText = pegarResultado[i]
-
-        // }           
-    
-    // }
-    //  for(let i = 0; i < 11; i++){
-    //     let qtdDeRepeticao = pegarResultado[i]
-    //     console.log("deu " + (i+2) + " " + qtdDeRepeticao)
-    //     let newElement = document.createElement("div");
-    //     newElement.className = "bar";
-    //     newElement.style.width = 20+ "px";
-    //     newElement.style.height = qtdDeRepeticao  + "px"
-    //     newElement.style.background = "gray"; 
         
-        
-    //     let destination = document.getElementById("d2");
-    //     destination.appendChild(newElement);
-    //     }
- 
-
-   
-// for(let i = 0; i< pegarResultado.length; i++){
-//     const grafico = document.createElement("div") 
-//             grafico.classList.add("grafico")
-//             document.body.appendChild(grafico)
-//             grafico.style.width = 10 + "px"
-//             grafico.style.height = pegarResultado[i] + "px"
-            
-// }
-    
-
-// for(let i = 0; i < pegarResultado.length; i++){
-//     let qtdDeRepeticao = pegarResultado[i]
-//     console.log(qtdDeRepeticao)
-//     let newElement = document.createElement("div");
-//     newElement.className = "bar";
-//     newElement.style.width = qtdDeRepeticao + "px";
-//     newElement.style.height = 20 + "px"
-//     newElement.style.background = "gray"; 
-//     newElement.style.margin = 10 + "px"
-//     newElement.style.display = "inline-block"
-//     let destination = document.getElementById("d2");
-//     destination.appendChild(newElement);
-//     }
-//     console.log(pegarResultado)
