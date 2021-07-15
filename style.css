@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    margin: 0;
+
+}
+.giraDados{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px blue;
+    border-radius: 5px;
+}
+
+.giraDados:hover{
+    background-color: blue;
+    
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 20px;
+
+}
+
+.grafico{
+    display: flex;
+    height: 60px;
+    background-color: red;
+    margin-top: 29px;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.main{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media  (min-width: 800px) {
+    .grafico {
+        font-size: 10px;
+        height: 20px;
+        margin-top: 10px
+    }
+}
