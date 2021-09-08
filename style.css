@@ -27,42 +27,79 @@ body{
 }
 
 .dado{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: blue;
-    margin: 20px;
+    margin: 10px;
 
+}
+
+.main{
+    display: block;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.graficoTexto{
+    width: 100%; 
+    margin-bottom: 5px;
+    display: block;
+}
+.graficoTextoH6{
+    display: block;
+    margin: 5px;
 }
 
 .grafico{
     display: flex;
-    height: 60px;
-    background-color: red;
-    margin-top: 29px;
+    width: 100%;
+    margin-top: 20px;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: flex-end;
+    margin: 5px;
+    padding: 10px;
     
 }
 
-.main{
-    display: flex;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
+.graficoContent{
+    
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 20px;
+    background-color: red;
 }
 
+.text{
+    text-align: center;
+}
+
+
+
 @media  (min-width: 800px) {
-    .grafico {
-        font-size: 10px;
-        height: 20px;
-        margin-top: 10px
+    .grafico{
+        justify-content: space-evenly;
     }
+
+    .graficoContent{
+        width: 30px;
+    }
+
+    .dado{
+        width: 100PX;
+        height: 100PX;
+    }
+
 }
